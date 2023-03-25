@@ -1,0 +1,63 @@
+body {
+  background-image: url('../img/bg.gif');
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+main {
+  padding: 70px 0px;
+}
+
+.animes {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-anime {
+    padding: 10px;
+    background-color: black;
+    margin: 5px;
+    width: 315px;
+    cursor: pointer;
+    opacity: 0.3;
+    text-align: center;
+}
+
+.card-anime:hover{
+    opacity: 1;
+}
+
+.fundo_preto {
+  background-color: black;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  text-align: center;
+}
+
+.card-anime img {
+    border-radius: 10px;
+    height: 300px;
+}
+
+#animeModalBody, ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 8px;
+}
+
+.modal-img {
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+}
